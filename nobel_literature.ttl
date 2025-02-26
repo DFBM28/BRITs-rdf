@@ -1,0 +1,126 @@
+@prefix : <#> .
+@prefix laureat: <http://example.org/nobel_prize/literature/> .
+@prefix owl: <http://www.w3.org/2002/07/owl/> .
+@prefix dbo: <http://dbpedia.org/ontology/> .
+@prefix dbr: <http://dbpedia.org/resource/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+:nobel :name "Nobel Prize"@en ;
+       dbo:wikiPageWikiLink <https://en.wikipedia.org/wiki/Nobel_Prize> ;
+       :field "Literature" .
+
+
+:Canada rdf:type dbo:Country .
+:France rdf:type dbo:Country .
+:Belarus rdf:type dbo:Country .
+:US rdf:type dbo:Country .
+:Japan rdf:type dbo:Country .
+:UK rdf:type dbo:Country .
+:Poland rdf:type dbo:Country .
+:GermanReich rdf:type dbo:Country .
+:Austria rdf:type dbo:Country .
+
+
+laureat:AliceMunro
+    :name "Alice Munro"@en ;
+    :birthDate "1931-07-10"^^xsd:date ;
+    :birthCountry :Canada ;
+    :pictureLink <https://en.wikipedia.org/wiki/Alice_Munro#/media/File:Alice_Munro_2006_(cropped).jpg> ;
+    dbo:wikiPageWikiLink <https://en.wikipedia.org/wiki/Alice_Munro> ;
+
+    :yearWon "2013"^^xsd:gYear ;
+    :prizeWon :nobel ;
+    :countryWon :Canada ;
+    owl:sameAs dbr:Alice_Munro .
+
+
+laureat:PatrickModiano
+    :name "Patrick Modiano"@en ;
+    :birthDate "1945-07-30"^^xsd:date ;
+    :birthCountry :France ;
+    :pictureLink <https://en.wikipedia.org/wiki/Patrick_Modiano#/media/File:Patrick_Modiano_6_dec_2014_-_22.jpg> ;
+    dbo:wikiPageWikiLink <https://en.wikipedia.org/wiki/Patrick_Modiano> ;
+
+    :yearWon "2014"^^xsd:gYear ;
+    :prizeWon :nobel ;
+    :countryWon :France ;
+    owl:sameAs dbr:Patrick_Modiano .
+
+
+laureat:SvetlanaAlexievich
+    :name "Svetlana Alexievich"@en ;
+    :name "Святлана Алексіевіч"@be ;
+    :birthDate "1948-05-31"^^xsd:date ;
+    :birthCountry :Belarus ;
+    :pictureLink <https://en.wikipedia.org/wiki/Svetlana_Alexievich#/media/File:Svetlana_Alexievich_asv2024-01.jpg> ;
+    dbo:wikiPageWikiLink <https://en.wikipedia.org/wiki/Svetlana_Alexievich> ;
+
+    :yearWon "2015"^^xsd:gYear ;
+    :prizeWon :nobel ;
+    :countryWon :Belarus ;
+    owl:sameAs dbr:Svetlana_Alexievich .
+
+
+laureat:BobDylan
+    :name "Bob Dylan"@en ;
+    :birthDate "1941-05-24"^^xsd:date ;
+    :birthCountry :US ;
+    :pictureLink <https://en.wikipedia.org/wiki/Bob_Dylan#/media/File:DylanYoungKilkenny140719v2_(50_of_52)_(52246124397)_(cropped).jpg> ;
+    dbo:wikiPageWikiLink <https://en.wikipedia.org/wiki/Bob_Dylan> ;
+
+    :yearWon "2016"^^xsd:gYear ;
+    :countryWon :US ;
+    owl:sameAs dbr:Bob_Dylan .
+
+
+laureat:KazuoIshiguro
+    :name "Kazuo Ishiguro"@en ;
+    :name "石黒一雄"@ja ;
+    :birthDate "1954-11-08"^^xsd:date ;
+    :birthCountry :Japan ;
+    :pictureLink <https://en.wikipedia.org/wiki/Kazuo_Ishiguro#/media/File:Kazuo_Ishiguro_in_2017_01.jpg> ;
+    dbo:wikiPageWikiLink <https://en.wikipedia.org/wiki/Kazuo_Ishiguro> ;
+
+    :yearWon "2017"^^xsd:gYear ;
+    :countryWon :UK ;
+    owl:sameAs dbr:Kazuo_Ishiguro .
+
+
+laureat:OlgaTokarczuk
+    :name "Olga Tokarczuk"@en ;
+    :name "Olga Tokarczuk"@pl ;
+    :birthDate "1962-01-29"^^xsd:date ;
+    :birthCountry :Poland ;
+    :pictureLink <https://en.wikipedia.org/wiki/Olga_Tokarczuk#/media/File:Olga_Tokarczuk-9739.jpg> ;
+    dbo:wikiPageWikiLink <https://en.wikipedia.org/wiki/Olga_Tokarczuk> ;
+
+    :yearWon "2018"^^xsd:gYear ;
+    :countryWon :Poland ;
+    owl:sameAs dbr:Olga_Tokarczuk .
+
+
+laureat:PeterHandke
+    :name "Peter Handke"@en ;
+    :name "Peter Handke"@de ;
+    :birthDate "1942-12-06"^^xsd:date ;
+    :birthCountry :GermanReich ;
+    :pictureLink <https://en.wikipedia.org/wiki/Peter_Handke#/media/File:Peter-handke.jpg> ;
+    dbo:wikiPageWikiLink <https://en.wikipedia.org/wiki/Peter_Handke> ;
+
+    :yearWon "2019"^^xsd:gYear ;
+    :countryWon :Austria ;
+    owl:sameAs dbr:Peter_Handke .
+
+
+laureat:LouiseGluck
+    :name "Louise Glück"@en ;
+    :birthDate "1943-04-22"^^xsd:date ;
+    :birthCountry :US ;
+    :pictureLink <https://en.wikipedia.org/wiki/Louise_Gl%C3%BCck#/media/File:Louise_Gl%C3%BCck_circa_1977.jpg> ;
+    dbo:wikiPageWikiLink <https://en.wikipedia.org/wiki/Louise_Gl%C3%BCck> ;
+
+    :yearWon "2020"^^xsd:gYear ;
+    :countryWon :US ;
+    owl:sameAs dbr:Louise_Gluck .
