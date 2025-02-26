@@ -1,0 +1,12 @@
+PREFIX : <BRITs_rdf#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+
+SELECT ?name ?year
+FROM <BRITs_rdf.ttl>
+WHERE {
+  ?award a dbo:AwardEvent ;
+           dbo:year ?year ;
+           dbo:wonBy ?name.
+}
+ORDER BY AsC(?year)
