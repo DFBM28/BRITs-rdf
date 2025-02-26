@@ -9,4 +9,4 @@ WHERE {
            dbo:year ?year ;
            dbo:wonBy ?name.
 }
-ORDER BY AsC(?year)
+ORDER BY ASC(?year)
