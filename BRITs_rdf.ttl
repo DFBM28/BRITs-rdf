@@ -18,7 +18,7 @@
     dbo:won :BRIT_Award_International_Male_2013 .
 
 :BRIT_Award_International_Male_2013 a dbo:AwardEvent ;
-    dbo:year "2013"^^xsd:gYear ;
+    dbo:year "2013"^^xsd:integer ;
     dbo:wonBy :FrankOcean ;
     dbo:partOf :BRIT_Award_International_Male .
 
@@ -31,7 +31,7 @@
     dbo:won :BRIT_Award_International_Male_2014 .
 
 :BRIT_Award_International_Male_2014 a dbo:AwardEvent ;
-    dbo:year "2014"^^xsd:gYear ;
+    dbo:year "2014"^^xsd:integer ;
     dbo:wonBy :BrunoMars ;
     dbo:partOf :BRIT_Award_International_Male .
 
@@ -44,7 +44,7 @@
     dbo:won :BRIT_Award_International_Male_2015 .
 
 :BRIT_Award_International_Male_2015 a dbo:AwardEvent ;
-    dbo:year "2015"^^xsd:gYear ;
+    dbo:year "2015"^^xsd:integer ;
     dbo:wonBy :PharrellWilliams ;
     dbo:partOf :BRIT_Award_International_Male .
 
@@ -57,7 +57,7 @@
     dbo:won :BRIT_Award_International_Male_2016 .
 
 :BRIT_Award_International_Male_2016 a dbo:AwardEvent ;
-    dbo:year "2016"^^xsd:gYear ;
+    dbo:year "2016"^^xsd:integer ;
     dbo:wonBy :JustinBieber ;
     dbo:partOf :BRIT_Award_International_Male .
 
@@ -70,12 +70,12 @@
     dbo:won :BRIT_Award_International_Male_2017, :BRIT_Award_International_Male_2019 .
 
 :BRIT_Award_International_Male_2017 a dbo:AwardEvent ;
-    dbo:year "2017"^^xsd:gYear ;
+    dbo:year "2017"^^xsd:integer ;
     dbo:wonBy :Drake ;
     dbo:partOf :BRIT_Award_International_Male .
 
 :BRIT_Award_International_Male_2019 a dbo:AwardEvent ;
-    dbo:year "2019"^^xsd:gYear ;
+    dbo:year "2019"^^xsd:integer ;
     dbo:wonBy :Drake ;
     dbo:partOf :BRIT_Award_International_Male .
 
@@ -88,7 +88,7 @@
     dbo:won :BRIT_Award_International_Male_2018 .
 
 :BRIT_Award_International_Male_2018 a dbo:AwardEvent ;
-    dbo:year "2018"^^xsd:gYear ;
+    dbo:year "2018"^^xsd:integer ;
     dbo:wonBy :KendrickLamar ;
     dbo:partOf :BRIT_Award_International_Male .
 
@@ -101,6 +101,7 @@
     dbo:won :BRIT_Award_International_Male_2020 .
 
 :BRIT_Award_International_Male_2020 a dbo:AwardEvent ;
-    dbo:year "2020"^^xsd:gYear ;
+    dbo:year "2020"^^xsd:integer ;
     dbo:wonBy :TylerTheCreator ;
     dbo:partOf :BRIT_Award_International_Male .
+
