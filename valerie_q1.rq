@@ -1,2 +1,10 @@
 PREFIX : <nobel_literature#>
-SELECT ?
+PREFIX laureat: <http://example.org/nobel_prize/literature/> 
+PREFIX owl: <http://www.w3.org/2002/07/owl/> 
+PREFIX dbo: <http://dbpedia.org/ontology/> 
+PREFIX dbr: <http://dbpedia.org/resource/> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+
+SELECT ?name ?year
+
