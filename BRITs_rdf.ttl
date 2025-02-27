@@ -1,21 +1,24 @@
 @prefix : <https://raw.githubusercontent.com/DFBM28/BRITs-rdf/refs/heads/main/BRITs_rdf.ttl> .
+@prefix taxo: <https://raw.githubusercontent.com/maribelacosta/linkeddata/master/data/taxonomy.ttl#>
 @prefix foaf: <http://xmlns.com/foaf/0.1/> .
 @prefix dbo: <http://dbpedia.org/ontology/> .
 @prefix dbr: <http://dbpedia.org/resource/> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix owl: <http://www.w3.org/2002/7/owl#> .
 
-:BRIT_Award_International_Male a dbo:Award ;
-    rdfs:label "BRIT Award for International Male Solo Artist" ;
-    dbo:country dbr:United_Kingdom .
+:BRIT_Award_International_Male a taxo:MusicAward ;
+                                rdfs:label "BRIT Award for International Male Solo Artist" ;
+                                rdfs:subClassOf taxo:Award ;
+                                dbo:country dbr:United_Kingdom .
 
 :FrankOcean a foaf:Person ;
-    foaf:name "Frank Ocean" ;
-    rdfs:label "Frank Ocean" ;
-    dbo:birthDate "1987-10-28"^^xsd:date ;
-    dbo:birthPlace dbr:United_States ;
-    foaf:depiction <https://en.wikipedia.org/wiki/File:Frank_Ocean_2022_Blonded.jpg> ;
-    dbo:won :BRIT_Award_International_Male_2013 .
+            foaf:name "Frank Ocean" ;
+            rdfs:label "Frank Ocean" ;
+            dbo:birthDate "1987-10-28"^^xsd:date ;
+            dbo:birthPlace dbr:United_States ;
+            foaf:depiction <https://en.wikipedia.org/wiki/File:Frank_Ocean_2022_Blonded.jpg> ;
+            dbo:won :BRIT_Award_International_Male_2013 .
 
 :BRIT_Award_International_Male_2013 a dbo:AwardEvent ;
     dbo:year "2013"^^xsd:integer ;
