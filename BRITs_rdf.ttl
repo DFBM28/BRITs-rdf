@@ -20,7 +20,7 @@
             dbo:birthDate "1987-10-28"^^xsd:date ;
             dbo:birthPlace dbr:United_States ;
             foaf:depiction <https://en.wikipedia.org/wiki/File:Frank_Ocean_2022_Blonded.jpg> ;
-            dbo:won :BRIT_Award_International_Male_2013 .
+            taxo:hasWonAward :BRIT_Award_International_Male .
 
 :BRIT_Award_International_Male_2013 a dbo:AwardEvent ;
     dbo:year "2013"^^xsd:integer ;
