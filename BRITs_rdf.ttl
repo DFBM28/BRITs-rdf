@@ -19,7 +19,7 @@
             rdfs:label "Frank Ocean" ;
             dbo:birthDate "1987-10-28"^^xsd:date ;
             dbo:birthPlace dbr:United_States ;
-            foaf:depiction <https://en.wikipedia.org/wiki/File:Frank_Ocean_2022_Blonded.jpg> ;
+            :picturelink <https://en.wikipedia.org/wiki/File:Frank_Ocean_2022_Blonded.jpg> ;
             taxo:hasWonAward :BRIT_Award_International_Male .
 
 :BRIT_Award_International_Male_2013 a dbo:AwardEvent ;
@@ -32,7 +32,7 @@
     rdfs:label "Bruno Mars" ;
     dbo:birthDate "1985-10-08"^^xsd:date ;
     dbo:birthPlace dbr:United_States ;
-    foaf:depiction <https://en.wikipedia.org/wiki/File:BrunoMars24KMagicWorldTourLive_(cropped).jpg> ;
+    picturelink <https://en.wikipedia.org/wiki/File:BrunoMars24KMagicWorldTourLive_(cropped).jpg> ;
     dbo:won :BRIT_Award_International_Male_2014 .
 
 :BRIT_Award_International_Male_2014 a dbo:AwardEvent ;
@@ -45,7 +45,7 @@
     rdfs:label "Pharrell Williams" ;
     dbo:birthDate "1973-04-05"^^xsd:date ;
     dbo:birthPlace dbr:United_States ;
-    foaf:depiction <https://en.wikipedia.org/wiki/File:Pharrell_Williams_2024_(54133384149).jpg> ;
+    picturelink <https://en.wikipedia.org/wiki/File:Pharrell_Williams_2024_(54133384149).jpg> ;
     dbo:won :BRIT_Award_International_Male_2015 .
 
 :BRIT_Award_International_Male_2015 a dbo:AwardEvent ;
@@ -58,7 +58,7 @@
     rdfs:label "Justin Bieber" ;
     dbo:birthDate "1994-03-01"^^xsd:date ;
     dbo:birthPlace dbr:Canada ;
-    foaf:depiction <https://en.wikipedia.org/wiki/File:Justin_Bieber_in_2015.jpg> ;
+    picturelink <https://en.wikipedia.org/wiki/File:Justin_Bieber_in_2015.jpg> ;
     dbo:won :BRIT_Award_International_Male_2016 .
 
 :BRIT_Award_International_Male_2016 a dbo:AwardEvent ;
@@ -71,7 +71,7 @@
     rdfs:label "Drake" ;
     dbo:birthDate "1986-10-24"^^xsd:date ;
     dbo:birthPlace dbr:Canada ;
-    foaf:depiction <https://en.wikipedia.org/wiki/File:AJ_DONUTS_meeting_Drake_in_2023_(cropped).jpg> ;
+    picturelink <https://en.wikipedia.org/wiki/File:AJ_DONUTS_meeting_Drake_in_2023_(cropped).jpg> ;
     dbo:won :BRIT_Award_International_Male_2017, :BRIT_Award_International_Male_2019 .
 
 :BRIT_Award_International_Male_2017 a dbo:AwardEvent ;
@@ -89,7 +89,7 @@
     rdfs:label "Kendrick Lamar" ;
     dbo:birthDate "1987-06-17"^^xsd:date ;
     dbo:birthPlace dbr:United_States ;
-    foaf:depiction <https://en.wikipedia.org/wiki/File:Kendrick_Lamar_2018_Pulitzer_Prize_ceremony_(3x4_cropped).jpg> ;
+    picturelink <https://en.wikipedia.org/wiki/File:Kendrick_Lamar_2018_Pulitzer_Prize_ceremony_(3x4_cropped).jpg> ;
     dbo:won :BRIT_Award_International_Male_2018 .
 
 :BRIT_Award_International_Male_2018 a dbo:AwardEvent ;
@@ -102,7 +102,7 @@
     rdfs:label "Tyler, the Creator" ;
     dbo:birthDate "1991-03-06"^^xsd:date ;
     dbo:birthPlace dbr:United_States ;
-    foaf:depiction <https://en.wikipedia.org/wiki/File:Tyler_the_Creator_(52163761341)_(cropped).jpg> ;
+    picturelink <https://en.wikipedia.org/wiki/File:Tyler_the_Creator_(52163761341)_(cropped).jpg> ;
     dbo:won :BRIT_Award_International_Male_2020 .
 
 :BRIT_Award_International_Male_2020 a dbo:AwardEvent ;
