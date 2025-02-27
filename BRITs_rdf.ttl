@@ -7,13 +7,15 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix owl: <http://www.w3.org/2002/7/owl#> .
 
+:AwardedArtist a rdfs:Class ;
+                rdfs:subClassOf taxo:Person .
+
 :BRIT_Award_International_Male a taxo:MusicAward ;
                                 rdfs:label "BRIT Award for International Male Solo Artist" ;
                                 rdfs:subClassOf taxo:Award ;
                                 dbo:country dbr:United_Kingdom .
 
-:FrankOcean a foaf:Person ;
-            foaf:name "Frank Ocean" ;
+:FrankOcean a :AwardedArtist ;
             rdfs:label "Frank Ocean" ;
             dbo:birthDate "1987-10-28"^^xsd:date ;
             dbo:birthPlace dbr:United_States ;
